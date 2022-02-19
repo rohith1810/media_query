@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-variant: small-caps;
+}
+.clear{
+    clear: both;
+}
+.row1{
+    width: 50%;
+    margin: auto;
+}
+.indi ul{
+    text-align:  center;
+}
+.indi ul li, a{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    background-color: lawngreen;
+    color: orangered;
+}
+.row2{
+    line-height: 60px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;   
+}
+span{
+    background-color: lawngreen;
+}
+.row3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row3 img{
+    width: 80%;
+    height: 500px;
+}
+.row4 input:first-child{
+    margin-left: 50%;
+}
+.row5{
+    width: 100%;
+    height: 350px;  
+}
+.dt1{
+    margin-left: 135px;
+}
+.dt1 , .dt2 , .dt3{
+    width: 25%;
+    height: 350px;
+    margin-right: 35px;
+    padding: auto;
+    color:black;
+    float: left;
+    text-align: center;
+    background-color:gray;
+}
+.dt1 img ,.dt2 img ,.dt3 img{
+    width: 100%;
+    height: auto;
+}
+.dt1 h4 ,.dt2 h4 ,.dt3 h4{
+    padding: 7px;
+    font-size: x-large;
+    height: 35px;
+    background-color: lawngreen;
+    color: whitesmoke;
+}
+.row6{
+    width: 90%;
+}
+.p1{
+    margin-left: 135px;
+}
+.p1 ,.p2 ,.p3{
+    width: 25%;
+    height: 290px;
+    margin-top: 5px;
+    margin-right: 65px;
+    color:black;
+    float: left;
+    text-align: left;
+}
+.p3{
+    margin-right: 20px;
+}
+h5{
+    font-size: xx-large;
+}
+h3{
+    font-size: larger;
+}
+button{
+    padding: 12px;
+    width: 150px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: larger;
+}
+.row7{
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+}
+.num1{
+    margin-left: 160px;
+}
+.num3{
+    margin-left: 60px;
+}
+.num1 ,.num3{
+    padding: 15px;
+    width: 60px;
+    float: left;
+    height: 92px;
+    background-color: lawngreen;
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+}
+.num2{
+    width: 30%;
+    background-color:black;
+    padding: 5px;
+    float: left;
+    color: turquoise;
+}
+.num4{
+    padding: 5px;
+    width: 30%;
+    float: left;
+    background-color: black;
+    color: turquoise;
+}
+.row7 h4{
+    color: rgb(6, 250, 238);
+    font-size: x-large;
+    font-weight: bolder;
+}
+.row8{
+     text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.dsgn{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+@media only screen and (max-width:576px){
+    .row1{
+        width: 100%;
+    }
+    .indi ul li{
+        width: 100%;
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+    .row2{
+        width: 100%;
+        padding: 12px 0px;
+    }
+    .row3 img{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .row4{
+        width: 100%;
+        padding: 10px;   
+    }
+    .row5{
+        display: block;
+        padding: 10px;
+    }
+    .dt1{
+        margin-left: 0px;
+    }
+    .dt1 , .dt2 , .dt3 {
+        display:block;
+        width: 100%;
+        padding: 5px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .dt1 img ,.dt2 img ,.dt3 img{
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+    .dt1 h4,.dt2 h4 ,.dt3 h4{
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+    .row6{
+        display: block;
+        padding: 10px;
+    }
+    .p1{
+        margin-bottom: 10px;
+        height: auto;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .p2 ,.p3{
+        height: auto;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: xx-large;
+        font-weight: 700;
+        display: block;
+    }
+    h3{
+        font-size: x-large;
+        font-weight: 500;
+        display: block;
+    }
+    button{
+        padding: 12px;
+        width: 150px;
+    }
+    .row7{
+        display: block;
+        padding: 7px;
+    }
+    .num1{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100%;
+        height: auto;
+        padding: 12px;
+    }
+    .num2 , .num4{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 1px;
+    }
+    .num3{
+        width: 100%;
+        padding: 3px;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .dsgn{
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 1px;
+    }
+
+}
