@@ -86,7 +86,7 @@ span{
 }
 .p1 ,.p2 ,.p3{
     width: 25%;
-    height: 290px;
+    height: auto;
     margin-top: 5px;
     margin-right: 65px;
     color:black;
